@@ -1,0 +1,10 @@
+target/
+.classpath
+.idea
+.settings
+.project
+*.iml
+logs/
+*.eml
+*.userlibraries
+test
