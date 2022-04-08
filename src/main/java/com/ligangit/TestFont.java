@@ -44,8 +44,8 @@ public class TestFont {
                 new File("D:\\work\\files\\bw_ab.png"),
                 "测试文字水印", Color.RED , //文字
                 font.deriveFont(Font.ITALIC,sourceImg.getWidth()/6) , //字体
-                0, //x坐标修正值。 默认在中间，偏移量相对于中间偏移
-                0, //y坐标修正值。 默认在中间，偏移量相对于中间偏移
+                100, //x坐标修正值。 默认在中间，偏移量相对于中间偏移
+                400, //y坐标修正值。 默认在中间，偏移量相对于中间偏移
                 0.6f//透明度：alpha 必须是范围 [0.0, 1.0] 之内（包含边界值）的一个浮点数字
         );
         long end1 = System.currentTimeMillis();
