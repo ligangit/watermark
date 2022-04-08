@@ -143,7 +143,7 @@ public class ImageMarkUtil {
     }
     public static void main(String[] args) throws IOException, FontFormatException {
         // 原图位置, 输出图片位置, 水印文字颜色, 水印文字
-        String content = "仅供睿远基金资料审核使用";
+        String content = "测试文字水印";
 //        String inPath = "D:\\work\\files\\iphone.jpg";
 //        String outPath = "D:\\work\\files\\baiduabdddd.jpg";
         String inPath = "D:\\work\\files\\blue.png";
