@@ -19,6 +19,34 @@
             <artifactId>hutool-all</artifactId>
             <version>5.5.8</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/ws.schild/jave-core -->
+        <dependency>
+            <groupId>ws.schild</groupId>
+            <artifactId>jave-core</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+        <!-- 以下依赖根据系统二选一 -->
+        <!-- win系统平台的依赖 -->
+        <dependency>
+            <groupId>ws.schild</groupId>
+            <artifactId>jave-nativebin-win64</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+        <!-- linux系统平台的依赖 -->
+        <dependency>
+            <groupId>ws.schild</groupId>
+            <artifactId>jave-nativebin-linux64</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+
+
+        <!--从视频中提取音频文件-->
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv-platform</artifactId>
+            <version>1.5.7</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

@@ -247,7 +247,7 @@ public class ImageMarkUtil {
     }
     public static void main(String[] args) throws IOException, FontFormatException {
         // 原图位置, 输出图片位置, 水印文字颜色, 水印文字
-        String content = "测试专用";
+        String content = "仅供睿远基金资料审核使用";
 //        String inPath = "D:\\work\\files\\iphone.jpg";
 //        String outPath = "D:\\work\\files\\baiduabdddd.jpg";
 //        int move = 120;
@@ -315,10 +315,12 @@ public class ImageMarkUtil {
         //srcImgHeight:1280
         //fontSize:46
         //move:190
-//        String inPath = "D:\\work\\files\\abc16.jpg";
-//        String outPath = "D:\\work\\files\\baiduabdddd.jpg";
-        String inPath = "D:\\work\\files\\abc17.png";
-        String outPath = "D:\\work\\files\\baiduabdddd.png";
+        String inPath = "D:\\work\\files\\abc19.jpg";
+        String outPath = "D:\\work\\files\\baiduabdddd.jpg";
+//        String inPath = "D:\\work\\files\\abc17.png";
+//        String outPath = "D:\\work\\files\\baiduabdddd.png";
+//        String inPath = "D:\\work\\files\\abc18.png";
+//        String outPath = "D:\\work\\files\\baiduabdddd.png";
         //通过当前类的类加载器获取到字体文件流
         //通过字体流创建字体并重新创建一个字体大小为(22.0F)的字体对象
 //        WatermarkFontSingleton instance = WatermarkFontSingleton.getInstance("D:\\work\\files\\simsun.ttc");
@@ -329,7 +331,7 @@ public class ImageMarkUtil {
 //                outPath, Color.red, fontSize, content, font, move);
         String fontFilePath = "D:\\work\\files\\simsun.ttc";
         ImageMarkUtil.waterPress(inPath,
-                outPath, Color.red, content,fontFilePath );
+                outPath, Color.blue, content,fontFilePath );
         //fontSize11111------34
         //fontSize22222------34
         //move11111-------:80
